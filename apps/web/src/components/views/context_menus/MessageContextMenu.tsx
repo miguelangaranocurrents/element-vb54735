@@ -94,7 +94,7 @@ const ReplyInThreadButton: React.FC<IReplyInThreadButton> = ({ mxEvent, closeMen
                 action: Action.ShowThread,
                 rootEvent: mxEvent.getThread()!.rootEvent!,
                 initialEvent: mxEvent,
-                scroll_into_view: true,
+                scrollIntoView: true,
                 highlighted: true,
                 push: context.isCard,
             });

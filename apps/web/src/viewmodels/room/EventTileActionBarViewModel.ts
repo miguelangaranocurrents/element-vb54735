@@ -488,7 +488,7 @@ export class EventTileActionBarViewModel
                 action: Action.ShowThread,
                 rootEvent: thread.rootEvent,
                 initialEvent: mxEvent,
-                scroll_into_view: true,
+                scrollIntoView: true,
                 highlighted: true,
                 push: isCard,
             });
